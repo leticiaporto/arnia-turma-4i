@@ -1,0 +1,11 @@
+p {
+    width: 150px;
+    height: 100px;
+    color: white;
+    background-color: green;
+    border-top: 2px dashed blue;
+    border-left: 2px dotted yellow;
+    border-bottom: 2px double red;
+    margin-top: 10px;
+    margin-right: 10px;
+}
