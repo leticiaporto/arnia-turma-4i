@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Select</title>
+    </head>
+    <body>
+        <form id="formulario">
+            <div>
+                <label for="tipo">Tipo:</label>
+                <select name="tipo" id="tipo">
+                    <option value="">Escolha um tipo...</option>
+                    <option value="lanche">Lanche</option>
+                    <option value="bebida" selected>Bebida</option>
+                </select>
+            </div>
+            <div>
+                <label>Ativo?</label>
+                <div>
+                    <input type="radio" name="ativo" id="ativoSim" value="sim">
+                    <label for="sim">Sim</label>
+                </div>
+                <div>
+                    <input type="radio" name="ativo" id="ativoNao" value="nao">
+                    <label for="nao">Não</label>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
