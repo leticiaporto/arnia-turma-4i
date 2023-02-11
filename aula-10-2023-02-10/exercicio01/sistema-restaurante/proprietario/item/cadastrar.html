@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cadastrar Item</title>
+        <link rel="stylesheet" href="../../estilos/index.css">
+    </head>
+    <body>
+        <div>
+            <div class="titulo">Cadastrar Item</div>
+            <div class="conteudo">
+                <form method="post" action="">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" required><br>
+                    <label for="tipo">Tipo:</label><br>
+                    <select name="tipo" id="tipo" required>
+                        <option value="">Escolha...</option>
+                        <option value="prato">Prato</option>
+                        <option value="bebida">Bebida</option>
+                    </select><br>
+                    <label for="descricao">Descrição:</label><br>
+                    <textarea type="text" id="descricao" name="descricao"></textarea><br>
+                    <label for="foto">Foto:</label><br>
+                    <input type="file" id="foto" name="foto" required><br><br>               
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+            <a class="voltar" href="../index.html">  
+                <p>Voltar</p>
+            </a>
+        </div>
+    </body>
+</html>

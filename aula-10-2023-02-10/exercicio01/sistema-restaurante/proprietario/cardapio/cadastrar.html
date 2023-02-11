@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cadastrar Cardárpio</title>
+        <link rel="stylesheet" href="../../estilos/index.css">
+    </head>
+    <body>
+        <div>
+            <div class="titulo">Cadastrar Cardápio</div>
+            <div class="conteudo">
+                <form method="post" action="">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" required><br>
+                    <label for="descricao">Descrição:</label><br>
+                    <textarea type="text" id="descricao" name="descricao"></textarea><br>  
+                    <label for="ativo">Ativo?</label><br>
+                    <input type="radio" id="sim" name="ativo" value="sim">
+                    <label for="sim">Sim</label><br>
+                    <input type="radio" id="nao" name="ativo" value="nao">
+                    <label for="nao">Não</label><br><br>  
+                    <hr>
+                    <h3>Pratos</h3> 
+                    <label for="prato1">Prato 1:</label><br>
+                    <select name="prato1" id="prato1" required>
+                        <option value="">Escolha...</option>
+                        <option value="1">X-Burguer</option>
+                        <option value="2">X-Tudo</option>
+                        <option value="3">Pastel</option>
+                    </select><br>  
+                    <label for="valor_prato1">Valor:</label><br>
+                    <input type="text" id="valor_prato1" name="valor_prato1" required><br><br> 
+                    <label for="prato2">Prato 2:</label><br>
+                    <select name="prato2" id="prato2" required>
+                        <option value="">Escolha...</option>
+                        <option value="1">X-Burguer</option>
+                        <option value="2">X-Tudo</option>
+                        <option value="3">Pastel</option>
+                    </select><br>  
+                    <label for="valor_prato2">Valor:</label><br>
+                    <input type="text" id="valor_prato2" name="valor_prato2" required><br><br>   
+                    <hr>
+                    <h3>Bebidas</h3> 
+                    <label for="bebida1">Bebida 1:</label><br>
+                    <select name="bebida1" id="bebida1" required>
+                        <option value="">Escolha...</option>
+                        <option value="1">Refrigerante</option>
+                        <option value="2">Suco</option>
+                        <option value="3">Chá gelado</option>
+                    </select><br>  
+                    <label for="valor_bebida1">Valor:</label><br>
+                    <input type="text" id="valor_bebida1" name="valor_bebida1" required><br><br> 
+                    <label for="bebida2">Bebida 2:</label><br>
+                    <select name="bebida2" id="bebida2" required>
+                        <option value="">Escolha...</option>
+                        <option value="1">Refrigerante</option>
+                        <option value="2">Suco</option>
+                        <option value="3">Chá gelado</option>
+                    </select><br>  
+                    <label for="valor_bebida2">Valor:</label><br>
+                    <input type="text" id="valor_bebida2" name="valor_bebida2" required><br><br>  
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+            <a class="voltar" href="../index.html">  
+                <p>Voltar</p>
+            </a>
+        </div>
+    </body>
+</html>

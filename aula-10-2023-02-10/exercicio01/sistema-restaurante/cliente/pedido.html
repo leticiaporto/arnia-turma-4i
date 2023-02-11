@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>Restaurante</title>    
+        <link rel="stylesheet" href="../estilos/cliente.css">
+    </head>
+    <body>
+        <div id="inicio">
+            <div class="voltar">
+                <a href="cardapio.html">
+                    Voltar
+                </a>
+            </div>
+            <div id="imagem-pequena">
+                <img width="100" height="100" src="https://i.pinimg.com/736x/f9/65/0b/f9650beef1e6e92578525e7c8f97bc21.jpg" >
+            </div>
+            <div>
+                <form method="post" action="">
+                    <h3>Endereço</h3> 
+                    <label>CEP:</label><br>
+                    <input type="text" name="cep" /><br>
+                    <label>Rua:</label><br>
+                    <input type="text" name="rua" /><br>
+                    <label>Número:</label><br>
+                    <input type="text" name="numero" /><br>
+                    <label>Bairro:</label><br>
+                    <input type="text" name="numero" /><br><br>
+                    <hr>
+                    <h3>Prato</h3> 
+                    <label for="prato">Prato:</label><br>
+                    <select name="prato" id="prato">
+                        <option value="">Escolha...</option>
+                        <option value="1">X-Burguer</option>
+                        <option value="2">X-Tudo</option>
+                    </select><br>  
+                    <label for="quantidade_prato">Quantidade:</label><br>
+                    <input type="number" id="quantidade_prato" name="quantidade_prato"><br><br> 
+                    <h3>Bebida</h3> 
+                    <label for="bebida">Bebida:</label><br>
+                    <select name="bebida" id="bebida">
+                        <option value="">Escolha...</option>
+                        <option value="1">Refrigerante</option>
+                        <option value="2">Suco</option>
+                    </select><br>  
+                    <label for="quantidade_bebida">Quantidade:</label><br>
+                    <input type="number" id="quantidade_bebida" name="quantidade_bebida"><br> 
+                </form>
+                <div class="link">
+                    <a href="pagamento.html">
+                        Efetuar Pagamento
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

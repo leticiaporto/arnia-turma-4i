@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffc8;
+    color: #a10303;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+#inicio {
+    text-align: center;
+}
+
+/* #imagem {
+    padding: 50px;
+}
+
+#imagem img {
+    border-radius: 10%;
+}
+
+#imagem-pequena {
+    padding: 20px;
+}
+
+#imagem-pequena img {
+    border-radius: 10%;
+} */
+
+.subtitulo {
+    font-size: 28px;
+}
+
+.titulo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.link {
+    padding-top: 50px;
+}
+
+.link a {
+    font-size: 28px;
+    font-weight: bold;
+    color: #a10303;
+}
+
+.parte-cardapio {
+    display: inline-block;
+}
+
+.item-cardapio {
+    padding: 30px;
+}
+
+.titulo-item-cardapio {
+    font-size: 28px;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+.descricao-item-cardapio {
+    font-style: italic;
+}
+
+.preco {
+    font-size: 24px;
+}
+
+.voltar a {
+    color: gray;
+}
