@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+header {
+    text-align: center;
+    background-color: #0055aa;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 18px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+#inicio img {
+    width: 100%;
+}
+
+#quemsomos {
+    text-align: justify;
+    padding: 50px;
+}
+
+#servicos, #contato {
+    text-align: center;
+    background-color: #0055aa;
+    color: white;
+}
+
+.servico {
+    display: inline-block;
+    font-size: 32px;
+    padding: 100px 50px;
+}
+
+#obras {
+    text-align: center;
+}
+
+.obra {
+    display: inline-block;
+    padding: 50px 50px;
+}
+
+.obra img {
+    width: 300px;
+    height: 150px;
+}
+
+#contato {
+    padding: 40px;
+}
+
+.item-contato {
+    margin-bottom: 20px;
+}
