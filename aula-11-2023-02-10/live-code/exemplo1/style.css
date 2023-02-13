@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkgray;
+    height: 150vh;
+    width: 150vw;
+}
+
+.pai {
+    margin: 200px;
+    width: 300px;
+    height: 300px;
+    background-color: magenta;
+    position: relative;
+}
+
+.filha {
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+    position: absolute;
+}
