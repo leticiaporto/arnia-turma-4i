@@ -22,6 +22,8 @@ header {
     position: fixed;
     width: 100%;
     z-index: 1;
+    top: 0;
+    box-shadow: #a3a3a333 0px 0px 25px;
 }
 
 li {
@@ -40,8 +42,7 @@ li a:hover {
 }
 
 main {
-    position: relative;
-    top: 62px;
+    margin-top: 62px;
 }
 
 #inicio img {
@@ -82,6 +83,11 @@ main {
     position: absolute;
     left: 15px;
     bottom: 15px;
+    background-color: #0055aa;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
 }
 
 .obra img {
@@ -95,4 +101,18 @@ main {
 
 .item-contato {
     margin-bottom: 20px;
+}
+
+footer {
+    background-color: #0055aa;
+}
+
+#whatsapp-button {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+#whatsapp-button img {
+    width: 75px;
 }
