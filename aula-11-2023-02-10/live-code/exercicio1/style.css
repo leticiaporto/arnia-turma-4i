@@ -1,0 +1,19 @@
+.card {
+    background-color: #E2E9E9;
+    border-radius: 10px;
+    width: 213px;
+    text-align: center;
+    position: relative;
+    height: 195px;
+    margin: 100px;
+}
+
+.imagem {
+    position: absolute;
+    top: -70px;
+    width: 100%;
+}
+
+.texto {
+    padding-top: 85px;
+}
