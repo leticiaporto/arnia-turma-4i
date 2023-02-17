@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+header {
+    text-align: center;
+    background-color: #0055aa;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    box-shadow: #a3a3a333 0px 0px 25px;
+    height: 60px;
+}
+
+ul {
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    font-size: 18px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 60px;
+}
+
+#inicio img {
+    width: 100%;
+}
+
+#quemsomos {
+    text-align: justify;
+    padding: 50px;
+}
+
+#servicos, #contato {
+    text-align: center;
+    background-color: #0055aa;
+    color: white;
+}
+
+#servicos {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    padding: 100px 50px;
+}
+
+#obras {
+    padding: 100px;
+    text-align: center;    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+/* .obra {
+    display: inline-block;
+    padding: 50px 50px;
+} */
+
+.obra-conteudo {
+    position: relative;
+}
+
+.obra-titulo {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    background-color: #0055aa;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.obra img {
+    width: 300px;
+    height: 150px;
+}
+
+#contato {
+    padding: 40px;
+}
+
+.item-contato {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #0055aa;
+}
+
+#whatsapp-button {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+#whatsapp-button img {
+    width: 75px;
+}
