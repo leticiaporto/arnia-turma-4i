@@ -1,0 +1,1 @@
+let resultado = 13 ** (1/3)
