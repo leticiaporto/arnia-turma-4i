@@ -9,8 +9,8 @@ function filtrarPares(vetor) {
     for (let i = 0; i < vetor.length; i++) {
         let numero = vetor[i]
         if (numero % 2 === 0) {
-            // pares.push(numero) // adicionando numero no vetor pares
-            pares[pares.length] = numero
+            pares.push(numero) // adicionando numero no vetor pares
+            // pares[pares.length] = numero //Outra forma de fazer
         }
     }
     return pares
@@ -21,9 +21,8 @@ quantidade = io.readInt()
 
 for(let i = 0; i < quantidade; i++) {
     io.write('Digite um número: ')
-    numeros[i] = io.readInt()
-    // let numero = io.readInt()
-    // numeros.push(numero)
+    let numero = io.readInt()
+    numeros.push(numero)
 }
 console.log(numeros, numeros.length)
 numerosPares = filtrarPares(numeros)
