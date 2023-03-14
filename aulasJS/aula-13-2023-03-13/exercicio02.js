@@ -11,7 +11,7 @@ class Pessoa {
 
 const pessoas = []
 
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 10; i++) {
     io.write('Definir o nome:')
     const nome = io.read()
     io.write('Defina a idade:')
