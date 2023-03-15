@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        // function cliqueAqui() {
+        cliqueAqui = () => {
+            const elemento = document.getElementById("texto")
+            console.log(elemento.innerHTML)
+            if (elemento.innerHTML === "Escola") {
+                elemento.innerHTML = "Arnia"
+            } else {
+                elemento.innerHTML = "Escola"
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div>
+        <p id="texto">Escola</p>
+        <p id="texto">Escola</p>
+    </div>
+    <button onclick="cliqueAqui()">Clique aqui</button>
+</body>
+
+</html>
