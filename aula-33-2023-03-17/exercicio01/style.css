@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    top: 0;
+    left: 0;
+    margin: 0;
+    height: 100%;
+    color: #009688
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#pagina {
+    height: 100%;
+    text-align: center;
+}
+
+#cabecalho {
+    padding: 20px;
+}
+
+#conteudo {
+    padding: 100px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    padding: 20px;
+}
+
+p {
+    font-size: 28px;
+}
+
+label {
+    font-weight: bold;
+    color: #817e7e;
+}
+
+button {
+    background-color: #009688;
+    border-radius: 4px;
+    border: 0;
+    font-size: 18px;
+    margin: 0;
+    min-height: 56px;
+    min-width: 120px;
+    padding: 16px 20px;
+    color: white;
+    cursor: pointer;
+}
+        
+input {
+    width: 100%;
+    min-width: 250px;
+    height: 40px; 
+    border: solid 1px #817e7e;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+input::placeholder {
+    color: #817e7e
+}
+
+#formulario {
+    width: 50%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.bloco {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding-top: 100px;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 1s;
+}
+
+.bloco.modal-visivel {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.conteudo-modal {
+    background-color: white;
+    width: 80%;
+    padding: 30px;
+    margin: 0 auto;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.conteudo-modal h1 {
+    font-size: 40px;
+    margin: 40px;
+}
+
+#fechar {
+    float: right;
+}
+
+#nome-modal, #email-modal {
+    color: #7e7e7e;
+}
+
+#botao-modal {
+    margin: 40px;
+}

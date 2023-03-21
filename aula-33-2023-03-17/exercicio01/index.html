@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>  
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    <div id="conteudo">
+        <h1>Efetue o seu cadastro</h1>
+        <div id="formulario">
+            <label>Nome Completo</label><br>
+            <input type="text" name="nome" id="nome" placeholder="Nome completo"><br>
+            <label>CPF</label><br>        
+            <input type="text" name="cpf" id="cpf" placeholder="CPF"><br>
+            <label>E-mail</label><br>        
+            <input type="email" name="email" id="email" placeholder="E-mail"><br>
+            <label>Senha</label><br>        
+            <input type="password" name="senha" id="senha" placeholder="Senha"><br>
+        </div>
+        <button id="finalizar" onclick="abrirModal()">Finalizar</button>
+    </div>
+    <div id="modal" class="bloco modal-invisivel">
+        <div class="conteudo-modal">
+            <span id="fechar">&times;</span>
+            <h1>Seja bem-vindo(a), <label id="nome-modal"></label>!</h1>
+            <h4>Um e-mail de confimação foi enviado para <label id="email-modal"></label></h1>
+            <button id="botao-modal" onclick="fechar()">OK</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
