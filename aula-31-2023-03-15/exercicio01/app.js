@@ -1,14 +1,22 @@
 expandir = (itemId) => {
     const divItem = document.getElementById(itemId)
     const descricao = divItem.querySelector('.descricao')
+    let mostrar = false
 
     //recupera todas as descrições
     const descricoes = document.getElementsByClassName('descricao')
 
+    //verifica o que deve ser feito com a da descrição atual
+    if (descricao.classList.contains('none')) {
+        mostrar = true
+    } else if (descricao.classList.contains('block')) {
+        mostrar = false
+    }
+
     //oculta todas as descrições
     for (var i = 0; i < descricoes.length; i++) {
         descricoes[i].classList.remove('block')
-        descricoes[i].classList.add('none') 
+        descricoes[i].classList.add('none')
     }
 
     /* 
@@ -22,10 +30,10 @@ expandir = (itemId) => {
     */
 
     //trata da descrição atual
-    if (descricao.classList.contains('none')) {
+    if (mostrar) {
         descricao.classList.remove('none')
         descricao.classList.add('block')
-    } else if (descricao.classList.contains('block')) {
+    } else {
         descricao.classList.remove('block')
         descricao.classList.add('none')
     }
