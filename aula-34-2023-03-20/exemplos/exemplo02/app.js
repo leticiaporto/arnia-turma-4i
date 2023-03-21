@@ -17,8 +17,12 @@ promise
       .then(res => {
         console.log(res)
         res.data.results.forEach(elemento => {
-          content.innerHTML = content.innerHTML + `<li>${elemento.name}</li>` 
-        })        
+          content.innerHTML = content.innerHTML + 
+          `<li>
+            <img class="imagem" src="${elemento.thumbnail.path}.${elemento.thumbnail.extension}">
+            ${elemento.name}
+          </li>` 
+        })       
         content.innerHTML = content.innerHTML + '</ul>'
       })
 
