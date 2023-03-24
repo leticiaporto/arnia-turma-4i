@@ -1,0 +1,29 @@
+{
+  "noticias": [
+    {
+      "id": 1,
+      "titulo": "Arnia Escola de Programação",
+      "descricao": "Venha aprender programação na Arnia",
+      "autor": "Letícia"
+    },
+    {
+      "id": 2,
+      "titulo": "Grupo Linkcom",
+      "descricao": "Mais de 25 no mercado de tencologia",
+      "autor": "Letícia"
+    },
+    {
+      "titulo": "W3ERP",
+      "descricao": "Boas vindas à nova versão do sistema",
+      "autor": "Letícia",
+      "id": 3
+    },
+    {
+      "titulo": "W3ERP",
+      "descricao": "Boas vindas à nova versão do sistema",
+      "autor": "Letícia",
+      "id": 4
+    }
+  ],
+  "receitas": []
+}
