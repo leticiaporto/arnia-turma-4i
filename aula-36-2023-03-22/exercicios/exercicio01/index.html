@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clima</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div id="conteudo">
+        <div>
+            <input id="pesquisa" placeholder="Pesquise por uma cidade..." />
+            <button id="finalizar" onclick="buscarFilme()">
+                <span><i class="fa-solid fa-search"></i></span>
+            </button>
+        </div>
+        <div class="caixa" id="caixa">
+            <div class="icon"><i class="fa-solid fa-cloud"></i></div>
+            <div class="info">
+                <div class="temperatura" id="temperatura"><span></span></div>
+                <div class="descricao">
+                    <div class="condicao" id="condicao"></div>
+                    <div class="local" id="local"></div>
+                </div>
+                <div class="data" id="data"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

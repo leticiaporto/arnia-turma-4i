@@ -1,4 +1,4 @@
-const apiKey = "MjRRhTWrP38nKvwUc7jzDhmqwAwTc8ZI"
+const apiKey = "insira_sua_chave_aqui"
 
 buscarDados = async () => {
     const local = 'Cuiaba'
