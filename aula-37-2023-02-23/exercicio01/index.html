@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Posts</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <div id="header">
+      <div id="logo">
+        <img src="images/image 1.png"/>
+      </div>
+      <div id="page-title">
+        Esportes
+      </div>
+      <div class="button" onclick="openModal()">
+        <div class="text-button">Novo Post</div>
+      </div>
+    </div>    
+    <div id="content">
+    </div>
+    <div id="modal" class="modal">
+      <div class="modal-container">
+        <div class="modal-header">
+          <span class="close" id="close-button" onclick="fecharModal()">&times;</span>
+        </div>
+        <div class="modal-content">
+          <form id="subscribe" class="form-card" novalidate>
+            <section>
+              <h1 class="title">Novo post</h1>
+            </section>
+            <section>
+              <label for="titulo">Título</label>
+              <input id="titulo" name="titulo" class="input input-default">
+            </section>
+            <section>
+              <label for="autor">Autor</label>
+              <input id="autor" name="autor" class="input input-default">
+            </section>
+            <section>
+              <label for="imagem">Imagem</label>
+              <input id="imagem" name="imagem" class="input input-default">
+            </section>
+            <section>
+              <label for="texto">Texto</label>
+              <textarea id="texto" name="texto" class="input" rows="10"></textarea>
+            </section>
+            <button type="submit" class="submit">SALVAR</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

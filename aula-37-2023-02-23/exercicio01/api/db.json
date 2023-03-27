@@ -1,0 +1,11 @@
+{
+  "noticias": [
+    {
+      "titulo": "teste",
+      "autor": "teste",
+      "imagem": "https://s2.glbimg.com/LPhpNk8v0NbUXHOn7el6WdOuuDI=/0x0:602x401/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/2/4/BuivkbR7ytke4jXhgkXg/5-bardesco.jpg",
+      "texto": "teste",
+      "id": 1
+    }
+  ]
+}
